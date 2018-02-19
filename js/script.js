@@ -148,7 +148,7 @@ var Orders = [
 	}
 ];
 
-// adding(Orders);
+adding(Orders);
 
 function adding(list){
 
@@ -158,7 +158,7 @@ function adding(list){
 		list.push(list[1]);
 	}
 
-	for(var i = 0; i < 2; i++);
+	for(var i = 0; i < 2; i++)
 		for (var j = 0; j < list[0].products.length; j++) {
 			list[1].products.push(list[0].products[j]);
 		}

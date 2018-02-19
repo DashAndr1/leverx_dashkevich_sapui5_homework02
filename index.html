@@ -6,62 +6,66 @@
 </head>
 <body>
 
-	<div class="navigation">
-		<div>
-			<button class="back_button"> < </button>
-			<div class="lable"><b>Orders (<span class="itemNumber"></span>)</b></div>
-		</div>
-		<div class="searchBox">
-			<form>
-				<input type="text" name="searchBox">
-				<button type="button"> <img src="images/magnifier.png"></button>
-				<button type="button"> <img src="images/refresh.png"></button>
-			</form>
-		</div>
-		<div class="list">
-			<ul class="orders">
-				<li>Лоуренс Аравийский</li>
-				<li>Двойная страховка</li>
-				<li>Таксист</li>
+	<div class="mainWindow">
+		<!-- <p>Сайтик</p> -->
+		<div class="navigation">
+			<div>
+				<button class="back_button"> < </button>
+				<div class="lable"><b>Orders (<span class="itemNumber"></span>)</b></div>
+			</div>
+			<div class="searchBox">
+				<form>
+					<input type="text" name="searchBox">
+					<button type="button"> <img src="images/magnifier.png"></button>
+					<button type="button"> <img src="images/refresh.png"></button>
+				</form>
+			</div>
+			<div class="list">
+				<ul class="orders">
+					<li>Лоуренс Аравийский</li>
+					<li>Двойная страховка</li>
+					<li>Таксист</li>
 
-			</ul>
+				</ul>
+			</div>
 		</div>
-	</div>
 
-	<div class="informationBoard">
-		<div class="lable">Order</div>
-		<div class="orderInfo">
-			<p id="p1">Order 
-				<span class="orderId">7918</span>
-				<span class="orderTotal">150 935,13</span></br>
-				<span class="currency">EUR</span>
-			</p>
-			<p id="p2">Customer: <span class="customer">Tortuga Restorant</span></p>
-			<p id="p3">Ordered: <span class="ordered">18 сент. 2016г</span></p>
-			<p id="p4">Shipped: <span class="shipped">26 сент. 2016г</span></p>
-		</div>
-		<div class="addressInfo">
-			<div class="menu"></div>
-			<div class="info">
-				<div class=lable><b>Shipping Address</b></div>
-				<table>
-					<tr><td class="firstCell">Name:</td><td class="name">ExcellentParcel</td></tr>
-					<tr><td class="firstCell">Street: </td><td class="Address">Tottenham Court Road</td></tr>
-					<tr><td class="firstCell">ZIP Code / City: </td><td class="ZIP">N170AA London</td></tr>
-					<tr><td class="firstCell">Region: </td><td class="Region">Greater London</td></tr>
-					<tr><td class="firstCell">Country: </td><td class="Country">United Kingdom</td></tr>
+		<div class="informationBoard">
+			<div class="lable">Order</div>
+			<div class="orderInfo">
+				<p id="p1">Order 
+					<span class="orderId">7918</span>
+					<span class="orderTotal">150 935,13</span></br>
+					<span class="currency">EUR</span>
+				</p>
+				<p id="p2">Customer: <span class="customer">Tortuga Restorant</span></p>
+				<p id="p3">Ordered: <span class="ordered">18 сент. 2016г</span></p>
+				<p id="p4">Shipped: <span class="shipped">26 сент. 2016г</span></p>
+			</div>
+			<div class="addressInfo">
+				<div class="menu"></div>
+				<div class="info">
+					<div class=lable><b>Shipping Address</b></div>
+					<table>
+						<tr><td class="firstCell">Name:</td><td class="name">ExcellentParcel</td></tr>
+						<tr><td class="firstCell">Street: </td><td class="Address">Tottenham Court Road</td></tr>
+						<tr><td class="firstCell">ZIP Code / City: </td><td class="ZIP">N170AA London</td></tr>
+						<tr><td class="firstCell">Region: </td><td class="Region">Greater London</td></tr>
+						<tr><td class="firstCell">Country: </td><td class="Country">United Kingdom</td></tr>
+					</table>
+				</div>
+			</div>
+			<div class="purchasesInfo">
+				<div class="lable"><b>Line items (<span class="itemNumber">0</span>)</b></div>
+				<table class="headerOfProduct">
+				</table>
+				<table class="products">
+					<tr class="heder"><td class="h_product">Product</td><td class="h_price">Unit Price</td><td class="h_quantity">Quantity</td><td class="h_total">Total</td></tr>				
 				</table>
 			</div>
 		</div>
-		<div class="purchasesInfo">
-			<div class="lable"><b>Line items (<span class="itemNumber">0</span>)</b></div>
-			<table class="headerOfProduct">
-			</table>
-			<table class="products">
-				<tr class="heder"><td class="h_product">Product</td><td class="h_price">Unit Price</td><td class="h_quantity">Quantity</td><td class="h_total">Total</td></tr>				
-			</table>
-		</div>
 	</div>
+	
 	
 
 
@@ -77,6 +81,7 @@
 
 
 	<div class="templates">
+		
 		<div class="itemForOrders">
 			<span>Order </span><span class="orderId"></span>	<span class="createdAt"></span></br>
 			<span class="customer"></span>	<span class="status"></span></br>
