@@ -1,0 +1,147 @@
+body{
+	background-image: url("images/background_main.jpg");
+	background-color: #E5F1FF;
+}
+
+.navigation{
+	padding: 5px;
+	float: left;
+	width: 215px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D5D5D5;
+}
+
+.informationBoard{
+	padding: 5px;
+	float: left;
+	width: 340px;
+	overflow: auto;
+}
+
+.navigation, .informationBoard{
+	height: 92vh;
+}
+
+.lable{
+	text-align: center;
+}
+
+.navigation .searchBox{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DADADA;
+	max-height: 25px;
+}
+
+.navigation .searchBox input, .navigation .searchBox button{
+	float: left;
+}
+
+.navigation .searchBox button{
+	height: 20px;
+	width: 20px;
+}
+
+.navigation .searchBox button img{
+	height: 15px;
+	vertical-align: top;
+}
+
+.navigation .back_button{
+	/*float: left;*/
+}
+.navigation .list{
+	height: calc(100% - 60px);
+}
+
+.navigation .list .orders{
+	position: relative;
+	left: -40px;
+	list-style-type: none;
+	overflow: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.navigation .list .orders li{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D5D5D5;
+}
+
+.navigation .list .orders .status, .navigation .list .orders .createdAt{
+	float: right;
+}
+
+.navigation .list .orders .createdAt{
+	/*font-size: 150%;*/
+}
+
+
+
+
+
+.informationBoard .orderInfo .orderId{
+}
+
+.informationBoard .orderInfo .orderTotal{
+	float: right;
+} 
+
+.informationBoard .orderInfo .currency{
+	float: right;
+	font-size: 40%;
+}
+
+.informationBoard .addressInfo .info{
+}
+
+.informationBoard .addressInfo .info table{
+	width: 100%;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #DADADA; 
+	border-top-style: solid;
+	border-width: 1px;
+	border-color: #DADADA; 
+}
+
+.informationBoard .addressInfo .info .lable{
+	text-align: left;
+}
+
+
+.informationBoard .addressInfo .info .firstCell{
+	text-align: right;
+}
+
+.informationBoard .addressInfo .info td{
+	padding-left: 2%;
+}
+
+.informationBoard .purchasesInfo .lable{
+	text-align: left;
+}
+
+.informationBoard .purchasesInfo .product{
+	width: 100%;
+}
+
+.informationBoard .purchasesInfo .product .name{
+	width: 50%
+}
+
+
+
+
+.templates{
+	visibility: hidden;
+	position: fixed;
+}
+
+/*.templates .itemForOrders .status, .templates .itemForOrders .createdAt{
+	float: right;
+}*/
+
+

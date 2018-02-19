@@ -1,0 +1,50 @@
+OrderInfo = {
+	id			: "",
+	createdAt	: "",
+	customer	: "",
+	status		: "",
+	shippedAt	: ""
+};
+
+Product = {
+	name		: "",
+	id			: "",
+	price		: "",
+	currency	: "",
+	quantity	: "",
+	totalPrice	: ""
+};
+
+ShipTo = {
+	name	: "",
+	street	: "",
+	ZIP		: "",
+	city	: "",
+	Region	: "",
+	Country	: ""
+};
+
+CustomerInfo = {
+	firstName	: "",
+	lastName	: "",
+	address		: "",
+	phone		: "",
+	email		: "",
+	photo		: ""
+};
+
+Order = {
+	id			: "",
+	OrderInfo	: {},
+	ShipTo		: {},
+	CustomerInfo: {},
+	products	: []
+};
+
+<li>
+					<div class="item">
+						<span>Order </span><span class="orderId">2d</span>	<span class="createdAt">1d</span></br>
+						<span class="customer">1d</span>	<span class="status">1d</span></br>
+						<span class="shipped">1d</span>
+					</div>
+				</li>
