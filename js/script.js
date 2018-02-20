@@ -148,7 +148,7 @@ var Orders = [
 	}
 ];
 
-adding(Orders);
+// adding(orders);
 
 function adding(list){
 
@@ -378,7 +378,6 @@ function getIndexesCorrespondingTo(searchStr, data, property){
 function removesDuplicatesFrom(list){
 	var resultList = [];
 	for(key in list){
-			// alert(list[key] + " " + !isHaveElement(list[key], list, key - 1, -1));
 		if(!isHaveElement(list[key], list, key - 1, -1)){
 			resultList.push(list[key]);
 		}

@@ -77,13 +77,33 @@ body{
 	overflow: auto;
 	height: 100%;
 	width: 100%;
+
 }
 
 .navigation .list .orders li{
 	border-style: solid;
 	border-width: 1px;
 	border-color: #D5D5D5;
+
 }
+
+
+@keyframes flash {
+    0%, 100% {opacity: 1;} 
+    50% {opacity: 0;}
+   }
+
+.navigation .list .orders li:hover {
+	background:#F7B35E;
+}
+
+.navigation .list .orders li:active {
+    animation-name: flash;
+	animation-delay: 0s;
+	animation-duration: 0.5s;
+	background:#F8FFD7;
+}
+
 
 .navigation .list .orders .status, .navigation .list .orders .createdAt{
 	float: right;
